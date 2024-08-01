@@ -1,0 +1,81 @@
+.Testomonials {
+  width: 100%;
+  .Testomonials__wrapper{
+    background: #56b2801a;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    .Testomonials__suptitle {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      .testomonials {
+        color: #0b254b;
+        font-size: 40px;
+        font-weight: 500;
+      }
+      .Some {
+        color: #5e6e89;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+    .Testomonials__block {
+      width: 100%;
+      padding-top: 27px;
+      display: flex;
+      justify-content: space-between;
+      .Testomonials__card{
+        width: 32%;
+        padding: 29px 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        background: #fff;
+        border-radius: 5px;
+        .Testomonials__img{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .Testo__img{
+                width: 84px;
+                height: 84px;
+            }
+        }
+        .Testomonials__stars{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 10.38px;
+        }
+        .Teastomonials__content{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            .fresheners{
+                color: #1D293F;
+                font-size: 22px;
+                font-weight: 500;
+                max-width: 300px;
+                text-align: center;
+            }
+            .Teastomonials__name{
+                font-size: 18px;
+                font-weight: 400;
+                color: 
+                #7C8087 ;
+            }
+        }
+      }
+    }
+  }
+}

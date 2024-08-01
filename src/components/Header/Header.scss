@@ -1,0 +1,55 @@
+.Header {
+  .header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .header__content {
+      display: flex;
+
+      .Header__collection {
+        display: flex;
+        gap: 40px;
+
+        .Header__item {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 18.75px;
+          text-align: center;
+          color: rgba(39, 39, 39, 1);
+          list-style: none;
+          transition: 0.3s;
+          select {
+            border: none;
+            font-weight: 600;
+            outline: none;
+            transition: 0.3s;
+            .option {
+              color: #fff;
+              font-weight: 700;
+              background: #ddd;
+              cursor: pointer;
+            }
+            &:hover {
+              cursor: pointer;
+              color: #56b280;
+            }
+          }
+
+          &:hover {
+            cursor: pointer;
+            color: #56b280;
+          }
+        }
+      }
+    }
+
+    .header__item {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      cursor: pointer;
+    }
+  }
+}
